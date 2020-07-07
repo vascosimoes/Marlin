@@ -514,16 +514,6 @@
   #endif
 #endif
 
-#define Z_DUAL_STEPPER_DRIVERS
-#if ENABLED(Z_DUAL_STEPPER_DRIVERS)
-  //#define Z_DUAL_ENDSTOPS
-  #if ENABLED(Z_DUAL_ENDSTOPS)
-    #define Z2_USE_ENDSTOP _XMAX_
-    #define Z_DUAL_ENDSTOPS_ADJUSTMENT  0
-    #define Y2_ENDSTOP_ADJUSTMENT  0
-  #endif
-#endif
-
 //
 // For Z set the number of stepper drivers
 //
